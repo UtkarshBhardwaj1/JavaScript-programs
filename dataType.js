@@ -15,11 +15,28 @@ The object data type can contain:
 3. A date*/
 
 
-const arr=[1,2,3,4,5];
+//object
+const emptyObj={};
+console.log({emptyObj}, typeof emptyObj );
+const user1={
+    Name: "Utkarsh",
+    Age: 22
+};
+const user2={
+    Name: "Ajay",
+    Age: 23
+};
+console.log(user1);
+console.log(user2.Name);
+user1.email="hahaha@gmail.com";
+console.log(user1);
+delete user1.email;
+user2.Age=22;
+console.log(user1);
+console.log(user2);
 
-for(var i=0; i<arr.length; i++){
+//arrays
+const arr=[];
+console.log(arr);
+console.log( arr instanceof Number)
 
-    setTimeout(function(){
-        console.log(arr[i])
-    }, 1000);
-}

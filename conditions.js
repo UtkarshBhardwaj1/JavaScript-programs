@@ -1,17 +1,17 @@
-// javaScript conditional statements 
-//if     if-else     multiple if-esle       switch
+// javaScript conditional statements
+// if     if-else     multiple if-esle       switch
 // document.writeln("Check odd or even number!!")
-// let number=prompt("Enter the number: " );
+let number=prompt("Enter the number: " );
 
 
 
-// if(number%2==0){
-//     document.write("The number is even!")
+if(number%2==0){
+    document.write("The number is even!")
 
-// }else{
-//     document.write("The number is odd!")
+}else{
+    document.write("The number is odd!")
 
-// }
+}
 
 let marks=prompt("Enter the marks");
 
