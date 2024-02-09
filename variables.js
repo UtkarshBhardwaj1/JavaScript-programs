@@ -1,10 +1,10 @@
-/* JavaScript programs are executed by the web browser */
+
 //JavaScript keywords: are reserved keywords they identify the js actions 
 /*
 var- declare a variable(used for old browsers 2015)
 let- declare a block variable 
 const- declare block constant 
-if- marks a bloack of statements executed on a condition
+if- marks a block of statements executed on a condition
 switch-marks a block of statements to be executed in diff cases
 for- for loop
 function- declares a function
